@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    /* color: #6C6C6C; */
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navigation Area */
+header{
+    background-color: #264653;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* Banner Area */
+.banner-area{
+    padding: 100px 15px;
+}
+
+/* Featured bikes */
+img.gray-100{
+    filter: grayscale(100%);
+}
+img.gray-100:hover{
+    filter: none;
+}
+
+/* testimonial */
+.rating i{
+    color: #E77C40;
+}
+
+/* faq */
+.faq  h1,h2,p{
+    font-family: 'Poppins', sans-serif; 
+}
+/* footer */
+footer ul li a{
+    color: #fff;
+}
+.copy-right-text{
+    color: #D9DBE1;
+}
+
+/* newsletter-area */
+.newsletter-image{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.newsletter-image img{
+    margin-top: -60px;
+}
+
+/* css media quires */
+@media screen and (max-width: 992px) {
+    .our-partner p{
+        width: 80%;
+    }
+  }
+    @media screen and (max-width: 768px){
+    .newsletter-image {
+        margin-bottom: 20px;
+    }
+    .form-subscribe {
+         padding-bottom: 20px;
+     }   
+    }
+  @media screen and (max-width: 360px) {
+    .our-partner p{
+        width: 100%;
+    }
+    .newsletter-area h4 {
+        padding-top: 20px;
+    }
+    .form-subscribe {
+        padding-top: 20px;
+    }
+
+  }
